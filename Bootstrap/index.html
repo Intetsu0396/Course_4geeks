@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        Container
+        <!-- La clase container nos permite agregar un margen a texto -->
+    </div>
+    <div class="container-fluid">
+        container-fluid
+        <!-- container-fluid tratara de tomar el 100% del espacio respetando un pequeño margen -->
+    </div>
+    <h2>
+        Ancho
+    </h2>
+    <div class="vw-100 bg-secondary">
+        vw-100
+    </div>
+    <div class="w-100 bg-danger">
+        w-100
+        <!-- obliga a que el elemento aproveche el 100% del ancho de la pantalla -->
+    </div>
+    <div class="w-75 bg-warning">
+        w-75
+    </div>
+    <div class="w-50 bg-success">
+        w-50
+    </div>
+    <div class="w-25 bg-primary">
+        w-25
+    </div>
+    <hr />
+    <h2>
+        Alto
+    </h2>
+    <div class="bg-primary <!vh-100">
+        <div class="h-100 bg-secondary">
+            h-100
+        </div>
+        <div class="h-75 bg-danger">
+            h-75
+        </div>
+        <div class="h-50 bg-info">
+            h-50
+        </div>
+        <div class="h-25 bg-success">
+            h-25
+        </div>
+    </div>
+
+    <!-- proporsiones (ancho-alto) 
+        / padding-margin 
+        / display 
+        / fondos 
+    -->
+    <h2>
+        texto
+    </h2>
+    <!-- fs-# = font-size #
+        FS-# nos ayudara a determinar 
+        que tamaño H queremos que nuetro texto tenga 
+    -->
+    <div>
+        tamaño
+        <h1 class="fs-1">
+            h1
+        </h1>
+        <h2 class="fs-2">
+            h2
+        </h2>
+        <h3 class="fs-3">
+            h3
+        </h3>
+        <h4 class="fs-4">
+            h4
+        </h4>
+        <h5 class="fs-5">
+            h5
+        </h5>
+        <h6 class="fs-6">
+            h6
+        </h6>
+    </div>
+    <div>
+        <p class="fw-bolder bg-info">peso</p>
+
+        <p class="fw-lighter">
+            ligero/lighter
+        </p>
+
+        <p class="fw-normal">
+            normal
+        </p>
+        <p class="fw-semiblod">
+            medio negrita/ semibold
+        </p>
+        <p class="fw-medium">
+            medium
+        </p>
+        
+        <p class="fw-bold">
+            negrita/bold
+        </p>
+        <p class="fw-bolder">
+            mas negrita/bolder
+        </p>
+        <div>
+            <p>Font Style</p>
+            <p class="fst-italic">
+                texto cursivo
+            </p>
+            <p class="fst-normal">
+                texto normal
+            </p>
+        </div>
+        <div>
+            <p class="fw-bolder">colores</p>
+
+            <p class="text-danger fw-bolder">
+                text-danger
+            </p>
+            <p class="text-primary fw-bolder">
+                text-primary
+            </p>
+            <p class="text-secondary fw-bolder">
+                text-secondary
+            </p>
+            <p class="text-success fw-bolder">
+                text-success
+            </p>
+            <p class="text-warning fw-bolder">
+                text-warning
+            </p>
+            <p class="text-brown fw-bolder">
+                text-brown TEXTO PERSONALIZADO
+            </p>
+            
+        </div>
+        <hr>
+
+        <div>
+            <h2>
+                espaciadores margin-padding
+            </h2>
+            <div class="bg-primary">
+                Margenes
+                <div class="m-1">
+                    Margenes 1
+                </div>
+                <div class="m-2">
+                    Margenes 2
+                </div>
+                <div class="m-3">
+                    Margenes 3
+                </div>
+                <div class="m-4">
+                    Margenes 4
+                </div>
+                <div class="m-5">
+                    Margenes 5
+                </div>
+            </div>
+            <div class="my-5 bg-secondary">
+                margenes en el eje Y (1-5)
+                <!-- los margenes se aplican de arriba y abajo  -->
+            </div>
+            <div class="mx-5 bg-warning">
+                margenes en el eje X (1-5)
+                <!-- los margenes se aplican de izquierda y derecha  -->
+            </div>
+                <div class="mt-5 bg-pale-pink">
+                    margen solo arriba
+                </div>
+                <div class="mb-5 bg-pale-pink">
+                    margen solo arriba
+                </div>
+                <div class="ms-5 bg-pale-pink">
+                    margen solo arriba
+                </div>
+                <div class="me-5 bg-pale-pink">
+                    margen solo arriba
+                </div>
+                <div class="bg-info">
+                    padding 
+                    <div class="p-1">
+                        padding 1
+                    </div>
+                    <div class="p-2">
+                        padding 2
+                    </div>
+                    <div class="p-3">
+                        padding 3
+                    </div>
+                    <div class="p-4">
+                        padding 4
+                    </div>
+                    <div class="p-5">
+                        padding 5
+                    </div>
+                </div>
+                <div class="py-5 bg-secondary">
+                    padding en el eje Y (1-5)
+                    <!-- los padding se aplican de arriba y abajo  -->
+                </div>
+                <div class="px-5 bg-warning">
+                    padding en el eje X (1-5)
+                    <!-- los padding se aplican de izquierda y derecha  -->
+                </div>
+                    <div class="pt-5 bg-pale-pink">
+                        padding solo arriba
+                    </div>
+                    <div class="pb-5 bg-pale-pink">
+                        padding solo arriba
+                    </div>
+                    <div class="ps-5 bg-pale-pink">
+                        padding solo arriba
+                    </div>
+                    <div class="pe-5 bg-pale-pink">
+                        padding solo arriba
+                    </div>
+                    <!-- La principal diferencia entre el padding y 
+                        el margin de CSS 
+                        es que el padding es el espacio entre 
+                        el contenido y el borde del elemento 
+                        (dentro del propio elemento), mientras que 
+                        el margin es el 
+                        espacio alrededor del borde de un elemento 
+                    -->
+
+        </div>
+    </div>
+    <!-- d-flex = display: flex; -->
+    <!-- justify-content: eje x; -->
+    <!-- align-items: eje y;  -->
+    <!-- gap-# = nos genera un espaciado de los elementos -->
+    <div class="d-flex gap-1">
+        <div>
+            soy
+        </div>
+        <div>
+            un d-flex
+        </div>
+        <div>
+            Esto tambien es un d-flex
+        </div>
+    </div>
+    <div class="d-flex flex-column">
+        <div>
+            ahora soy 
+        </div>
+        <div>
+            soy una
+        </div>
+        <div>
+            columna
+        </div>
+    </div>
+
+    <!-- GRID -->
+    <!-- mobile first: en el telefono -->
+    <!-- danger = rojo / warning = amarillo / primary = azul -->
+    <!-- sm = small (telefonos)
+         md = medium (mini - laptop)
+         lg = large (laptops / tablet horizontales), 
+         xl = extra-large (Pantallas + 22' pulgadas)
+         xxl = extra extra large (pantallas de + 27' pulgadas) -->
+    <div class="row">
+        <div class="col-12 col-md-6 col-lg-3 p-0 bg-primary">
+            <img src="https://picsum.photos/200/316" class="w-100" alt="">
+        </div>
+        <div class="col-12 col-md-6 col-lg-3 p-0 bg-secondary">
+            <img src="https://picsum.photos/200/315" class="w-100 alt="">
+        </div>
+        <div class="col-12 col-md-6 col-lg-3 p-0 bg-success">
+            <img src="https://picsum.photos/200/314" class="w-100 alt="">
+        </div>
+        <div class="col-12 col-md-6 col-lg-3 p-0 bg-warning">
+            <img src="https://picsum.photos/200/313" class="w-100 alt="">
+        </div>
+        <div class="col-12 col-md-6 col-lg-3 p-0 bg-primary">
+            <img src="https://picsum.photos/200/312" class="w-100 alt="">
+        </div>
+        <div class="col-12 col-md-6 col-lg-3 p-0 bg-secondary">
+            <img src="https://picsum.photos/200/311" class="w-100 alt="">
+        </div>
+        <div class="col-12 col-md-6 col-lg-3 p-0 bg-success">
+            <img src="https://picsum.photos/200/310" class="w-100 alt="">
+        </div>
+        <div class="col-12 col-md-6 col-lg-3 p-0 bg-warning">
+            <img src="https://picsum.photos/200/309" class="w-100 alt="">
+        </div>
+        <div class="col-12 col-md-6 col-lg-3 p-0 bg-primary">
+            <img src="https://picsum.photos/200/308" class="w-100 alt="">
+        </div>
+        <div class="col-12 col-md-6 col-lg-3 p-0 bg-secondary">
+            <img src="https://picsum.photos/200/307" class="w-100 alt="">
+        </div>
+        <div class="col-12 col-md-6 col-lg-3 p-0 bg-success">
+            <img src="https://picsum.photos/200/306" class="w-100 alt="">
+        </div>
+        <div class="col-12 col-md-6 col-lg-3 p-0 bg-warning">
+            <img src="https://picsum.photos/200/305" class="w-100 alt="">
+        </div>
+        <div class="col-12 col-md-6 col-lg-3 p-0 bg-primary">
+            <img src="https://picsum.photos/200/304" class="w-100 alt="">
+        </div>
+        <div class="col-12 col-md-6 col-lg-3 p-0 bg-secondary">
+            <img src="https://picsum.photos/200/303" class="w-100 alt="">
+        </div>
+        <div class="col-12 col-md-6 col-lg-3 p-0 bg-success">
+            <img src="https://picsum.photos/200/302" class="w-100 alt="">
+        </div>
+        <div class="col-12 col-md-6 col-lg-3 p-0 bg-warning">
+            <img src="https://picsum.photos/200/301" class="w-100 alt="">
+        </div>
+    </div>
+
+    <div>
+
+    <h2>
+        Otra grilla
+    </h2>
+    <!--normalmente la config de las columnas se haran del siguiente orden 
+        col-# (el mas pequeño)
+        col-sm-#
+        col-md-#
+        col-lg-#
+        col-xl-#
+        col-xxl-# (el mas grande)
+    -->
+    <div class="row">
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 col-xxl-1 ">
+            columna
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 col-xxl-1">
+            columna
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 col-xxl-1">
+            columna
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 col-xxl-1">
+            columna
+        </div>
+    </div>
+
+    </div>
+
+        
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+</body>
+</html>

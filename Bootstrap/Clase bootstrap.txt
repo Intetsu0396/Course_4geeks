@@ -1,0 +1,11 @@
+Framework: Marco de trabajo 
+Podriamos decir que es una caaja de herramienta para estilo de CSS
+
+Bootstrap en componentes y clases de utilidad 
+
+componentes= caja de herramienta
+Clases de utilidad = una herramienta en especifico
+
+Bootstrap es unas clases de CSS para poder añadir estilo a los archivos HTML
+
+
